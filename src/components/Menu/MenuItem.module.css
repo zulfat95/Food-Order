@@ -1,0 +1,60 @@
+.item-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.603);
+}
+
+.item-about {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.item-about_name {
+  font-size: 1.3rem;
+}
+
+.item-about_description {
+  font-style: italic;
+}
+
+.item-about_price {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: rgb(177, 77, 46);
+  padding-bottom: 20px;
+}
+
+.item-amount_field_group {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-self: center;
+}
+
+.item-amount_field {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-self: center;
+}
+
+.item-amount_field_label {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.item-amount_field_input {
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.add-button {
+  background-color: #bb4949;
+  border: none;
+  width: 7rem;
+  height: 36px;
+  align-self: flex-end;
+}

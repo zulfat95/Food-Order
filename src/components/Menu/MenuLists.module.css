@@ -1,0 +1,18 @@
+.card {
+  background-color: white;
+  width: 50%;
+  margin: 10rem auto;
+  padding: 25px;
+  /* display: flex;
+  justify-items: flex-end; */
+  /* position: absolute; */
+  /* top: 30rem; */
+  /* margin-top: 200px; */
+  /* left: 34.5%; */
+}
+
+@media (max-width: 640px) {
+  .card {
+    width: 100%;
+  }
+}

@@ -1,5 +1,4 @@
-import './Header.module.css';
-import meals from '../img/meals.jpg'
+import styles from './Header.module.css';
 
 function Header() {
   return (
@@ -7,6 +6,7 @@ function Header() {
       <h1>ReactMeals</h1>
       <div>Your order</div>
       {/* <img src={meals} alt={meals}/> */}
+      {/* <div className={styles.img}></div> */}
     </header>
   )
 }
