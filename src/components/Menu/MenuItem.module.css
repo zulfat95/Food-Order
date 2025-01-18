@@ -5,6 +5,10 @@
   border-bottom: 1px solid rgba(128, 128, 128, 0.603);
 }
 
+.item-block:not(:first-child) {
+  padding-top: 10px;
+}
+
 .item-about {
   display: flex;
   flex-direction: column;
@@ -49,6 +53,8 @@
   width: 50px;
   border-radius: 5px;
   border: 1px solid gray;
+  text-align: center;
+  font-size: 1.1rem;
 }
 
 .add-button {
@@ -57,4 +63,8 @@
   width: 7rem;
   height: 36px;
   align-self: flex-end;
+}
+
+.add-button:hover {
+  background-color: #742f2f;
 }
